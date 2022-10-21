@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  margin-top: 80px;
+}
+
+.btn-black {
+  width: 10%;
+  height: 35px;
+  margin-right: 8px;
+  border-radius: 16px;
+  border: none;
+  background-color: #3f4145;
+  color: white;
+  font-size: medium;
+}
+
+.btn-black:hover {
+  background-color: #010101;
+  transition: 0.7s;
+}
+
+.btn-black:focus {
+  background-color: #39b4c1;
+}
+
+.user {
+  color: rgb(8, 0, 255);
+}
+
+.userContainer {
+  margin-left: 50px;
+}
