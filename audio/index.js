@@ -19,23 +19,6 @@ btnBackPosts.addEventListener("click", event => {
   window.location.href=("../page1/index.html");
 });
 
-// btnPlayAudio.addEventListener("click", event => {
-//   console.log("Clicked");
-//   event.preventDefault();
-//   fetch("https://static.bandlab.com/soundbanks/previews/new-wave-kit.ogg", {
-//     method: 'GET',
-//     withCredentials: true,
-//     crossorigin: true,
-//     mode: 'no-cors',})
-//         .then((response) => {
-//           console.log(response.type);
-//         });
-//         // JSON.parse())
-//         // .then((data) => {
-//     //   console.log(data);
-//     // });
-// });
-
 btnPlay.addEventListener("click", () => {
   console.log("clicked play button");
   if (audioContext.state === "suspended") {
