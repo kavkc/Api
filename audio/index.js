@@ -7,7 +7,7 @@ const btnStop = document.querySelector("#stop");
 const audioContext = new AudioContext();
 const audio = new Audio("./sample/sample.mp3");
 
-// const audio = new Audio("/Users/kavitha/Documents/Api/audio/sample/sample.mp3");
+// const audio = new Audio("https://static.bandlab.com/soundbanks/previews/new-wave-kit.ogg");
 audio.crossOrigin = "anonymous";
 
 const source = audioContext.createMediaElementSource(audio);
