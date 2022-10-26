@@ -67,7 +67,7 @@ btnPostsUserid.addEventListener("click", event => {
       let previousUserid = 0;
       const postsUserid = "";
       arrUserid.forEach((result) => {
-        if (result.userId == previousUserid) {
+        if (result.userId === previousUserid) {
           const postsUserid =`<li class="userContainer">
                                 <p>
                                   <strong>Title:</strong> ${result.title} <br>
